@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #9e3b3b;
+    border: 1px solid white;
+    padding: 5px;
+    height: 100vh;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+div{
+    background: #000;
+    height: 400px;
+    width: 400px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
