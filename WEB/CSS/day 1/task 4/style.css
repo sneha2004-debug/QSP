@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+nav{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: lightpink;
+    font-size: 25px;
+}
+.logo{
+    width: 50%;
+}
+.nav2{
+    justify-content: space-evenly;
+    
+    display: flex;
+    width: 50%;
+}
