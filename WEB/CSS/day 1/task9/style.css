@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    text-align: center;
+}
+
+.team{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    height: 700px;
+    align-items: center;
+}
+
+.card{
+    background-color: lightblue;
+    border: 1px solid black;
+    padding: 20px;
+}
