@@ -1,0 +1,7 @@
+div {
+    display: flex;
+    gap: 20px;
+    width: 20%;
+    flex-wrap: wrap;
+    border: 1px solid black;
+}
