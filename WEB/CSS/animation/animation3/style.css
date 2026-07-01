@@ -1,0 +1,40 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#box{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    animation-name: box;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+}
+
+@keyframes box {
+    10%{
+        background-color: green;
+        transform: rotate(90deg);
+    }
+    40%{
+        background-color: blue;
+        transform: rotate(150deg);
+    }
+    60%{
+        background-color: black;
+        transform: rotate(230deg);
+    }
+    80%{
+        background-color: violet;
+        transform: rotate(290deg);
+    }
+    100%{
+        background-color: pink;
+        transform: rotate(360deg);
+    }
+}
+

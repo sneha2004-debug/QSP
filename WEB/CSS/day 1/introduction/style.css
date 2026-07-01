@@ -1,0 +1,21 @@
+div{
+    color: yellow;
+}
+
+#A{
+    background: #000;
+}
+
+#B{
+    background-color: aqua;
+}
+
+#C{
+    background-color: azure;
+}
+
+.size{
+    height: 100px;
+    width: 100px;
+}
+

@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+main{
+    display: flex;
+    width: 5%;
+    height: 50vh;
+    background-color: gray;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.class1{
+    height: 60%;
+    border: 2px solid rgb(191, 12, 12);
+}
+
+.class2{
+    height: 20%;
+    border: 2px solid rgb(191, 12, 12);
+}
