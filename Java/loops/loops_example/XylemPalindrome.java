@@ -42,6 +42,9 @@ class XylemPalindrome{
                 }
             }
         }
+        else{
+            System.out.println("Not a palindrome");
+        }
         
 
     }
