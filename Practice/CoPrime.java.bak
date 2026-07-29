@@ -1,0 +1,29 @@
+import java.util.Scanner;
+class CoPrime  
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter two numbers to find if they are co Prime :");
+		int n1=sc.next();
+		int n2=sc.nextInt();
+		int small = n1<n2?n1:n2;
+		while(true)
+		{
+			if(n1%small==0 && n2%small==0)
+			{
+				break;
+			}
+			small--;
+		}
+		if(small==1)
+		{
+			System.out.println("It is Co Prime");
+		}
+		else
+		{
+			System.out.println("It is not a Co Prime");
+		}
+		
+	}
+}

@@ -1,0 +1,41 @@
+class TwistedPrime 
+{
+	public static void main(String[] args) 
+	{
+		int num=15;
+		boolean flag=true;
+		int rev=0;
+		boolean flag2=true;
+		for(int i=2;i<num;i++)
+		{
+			if(num%i==0)
+			{
+				flag=false;
+				break;
+			}
+		}
+		if(flag)
+		{
+			for(int i=num;i!=0;i/=10)
+			{
+				int last=i%10;
+				rev=rev*10+last;
+			}
+			for(int j=rev;j<rev;j++)
+			{
+				if(rev%j==0)
+				{
+					flag2=false;
+				}
+			}
+		}
+		if(flag && flag2)
+		{
+			System.out.println("It is a Twisted Prime");
+		}
+		else
+		{
+			System.out.println("Not a Twin Prime Number");
+		}
+	}
+}

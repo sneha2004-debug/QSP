@@ -1,0 +1,38 @@
+import java.util.Scanner;
+class RangeOfArmstrong 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter start number :");
+		int start=sc.nextInt();
+		System.out.println("Enter End Number ");
+		int end=sc.nextInt();
+		
+		
+		for(int i=start;i<=end;i++)
+		{
+			int count=0;
+			int num=i;
+			int sum=0;
+			for(int j=num;j!=0;j/=10)
+			{
+				count++;
+			}
+			for(int k=num;k!=0;k/=10)
+			{
+				int power=1;
+				int last=k%10;
+				for(int s=1;s<=count;s++)
+				{
+					power=power*last;
+				}
+				sum=sum+power;
+			}      
+			if(sum==i)
+			{
+				System.out.println(i);
+			}
+		}
+	}
+}
