@@ -1,0 +1,18 @@
+class Pattern28 
+{
+	public static void main(String[] args) 
+	{
+		int n=2;
+		int num=n*n*n;
+		for(int i=1;i<=n;i++)
+		{
+			for(int j=1;j<=n;j++)
+			{
+				System.out.print(num+" ");
+					num-=n;
+				if(num<9) System.out.print(" ");
+			}
+			System.out.println();
+		}
+	}
+}
