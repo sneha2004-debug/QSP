@@ -1,30 +1,26 @@
-class Pattern35 
+class Pattern40 
 {
 	public static void main(String[] args) 
 	{
 		int n=4;
-		int a=n*2;
+		int num=1;
 		char ch='a';
-		for(int i=n*2;i>n;i--)
+		for(int i=1;i<=n;i++)
 		{
-			a=i;
-			
 			for(int j=1;j<=n;j++)
 			{
-				if(j%2!=0)
+				if(i>=j)
 				{
-					System.out.print(a+" ");
-					a-=4;
+					System.out.print(ch+" ");
+					ch++;
 				}
 				else
 				{
-					System.out.print(ch+" ");
-					ch+=4;
+					System.out.print(num+" ");
+					num++;
 				}
-				
 			}
 			System.out.println();
-			
 		}
 	}
 }

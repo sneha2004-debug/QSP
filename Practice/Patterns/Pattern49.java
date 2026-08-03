@@ -1,33 +1,25 @@
-class Pattern35 
+class Pattern49 
 {
 	public static void main(String[] args) 
 	{
 		int n=4;
-		int a=n*2;
-		char ch='a';
-		
-		for(int i=n*2;i>n;i--)
+		for(int i=1;i<=n;i++)
 		{
-			a=i;
-			int k=1;
-			ch=(char)k;
+			int a=i;
 			for(int j=1;j<=n;j++)
 			{
 				if(j%2!=0)
 				{
 					System.out.print(a+" ");
-					a-=4;
+					a=a+(n*2-1);
 				}
 				else
 				{
-					System.out.print(ch+" ");
-					ch+=4;
+					System.out.print(a+" ");
+					a+=n;
 				}
-				
 			}
-			k++;
 			System.out.println();
-			
 		}
 	}
 }
